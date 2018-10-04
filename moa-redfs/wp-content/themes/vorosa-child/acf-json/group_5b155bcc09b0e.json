@@ -1,0 +1,70 @@
+{
+    "key": "group_5b155bcc09b0e",
+    "title": "Event Files",
+    "fields": [
+        {
+            "key": "field_5b147f0e49e1b",
+            "label": "Files",
+            "name": "files",
+            "type": "repeater",
+            "instructions": "Upload one or more files (up to 20) for attendees to download. If you intend to upload more than a couple files it may be best to upload a single .zip file of all files for ease of use",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add File",
+            "sub_fields": [
+                {
+                    "key": "field_5b155d846b5d5",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "tribe_events"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "discussion",
+        "comments",
+        "author",
+        "format",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1528126879
+}

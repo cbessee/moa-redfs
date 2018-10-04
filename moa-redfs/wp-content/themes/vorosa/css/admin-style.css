@@ -1,0 +1,71 @@
+/*--------------------------------------------------------
+Type param: Product categories
+---------------------------------------------------------- */
+
+.mad-custom li { margin: 2px 0; }
+
+	.mad-custom li a {
+		position: relative;
+		display: block;
+		padding: 5px 10px;
+		text-decoration: none;
+
+		-webkit-box-shadow: none;
+				box-shadow: none;
+		-webkit-border-radius: 4px;
+				border-radius: 4px;
+		-webkit-transition: all .35s ease;
+				transition: all .35s ease;
+	}
+
+	.mad-custom li a.selected { opacity: 0.3; }
+
+	.mad-custom li a.selected:after {
+		position: absolute;
+		top: 50%;
+		margin-top: -9px;
+		right: 10px;
+		content: "\f158";
+		font-family: "dashicons";
+		font-size: 16px;
+	}
+
+	.mad-custom li.top_li > a {
+		padding: 7px 10px;
+		background-color: #02a6e4;
+	}
+
+	.mad-custom li a {
+		background-color: #00aef0;
+		color: #fff;
+	}
+
+	.mad-custom a:hover,
+	.mad-custom li.top_li > a:hover { background-color: #0089bd; }
+
+	/* Sub Menu */
+
+	.mad-custom .second_level { margin: 3px 5px 3px 15px; }
+
+
+.wrap > .fade,
+.wpb_vc_param_value.fade { opacity: 1; }
+
+.wpb-elements-list-modal .wpb-content-layouts li[data-element="mega_main_menu"] {
+	display: none;
+}
+
+
+/*==========================redux framework==================*/
+.form-table.no-border {
+  background: #F4F2F2 none repeat scroll 0 0;
+}
+.redux-main .description{
+	margin-top:0;
+}
+.appearance_page_pt-one-click-demo-import #wpwrap #wpbody #wpbody-content .ocdi.wrap .ocdi__response.js-ocdi-ajax-response .notice.notice-info{
+	display: none !important;
+}
+.mce-stack-layout{
+ z-index: 999999 !important;
+}

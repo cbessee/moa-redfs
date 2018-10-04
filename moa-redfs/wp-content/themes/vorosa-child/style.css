@@ -1,0 +1,440 @@
+/*
+ Theme Name:   Vorosa Child Customizations - Critigen
+ Theme URI:    http://demo.wphash.com/vorosa/
+ Description:  A child theme for the vorosa template built by developers at Critigen
+ Author:       Cole Bessee
+ Author URI:   http://github.com/cbessee
+ Template:     vorosa
+ Version:      1.0.0
+ Text Domain:  vorosa-child
+*/
+
+.tribe-events-promo {
+  display: none;
+}
+
+.single-tribe_events .tribe-events-event-meta {
+  font-size: 16px;
+}
+
+body, body p, body li, body ul, body ol {
+  font-size: 16px;
+  color: #333;
+}
+
+.contact > div {
+  margin-bottom: 5px;
+}
+
+/* YELLOW PAGES STYLES */
+
+/* list and single - responsive */
+@media screen and (max-width: 500px) {
+  .staff-photo {
+    width: 100% !important;
+    border: 0px !important;
+    text-align: center;
+    float: none !important;
+    margin: 15px 0px !important;
+    max-width: 100% !important;
+  }
+  .staff-photo img {
+    border: 1px solid #989898;
+    max-width: 230px;
+    padding: 10px;
+    margin: 0px auto;
+    float: none !important;
+  }
+
+  .staff-member-right {
+    float: none !important;
+    display: block;
+    width: 100%;
+    margin-left: 0px !important;
+    margin: auto;
+    font-size: 16px;
+  }
+}
+
+.staff-member-right table, .staff-member-right table td, .staff-member-right table tr {
+  border: 0;
+}
+
+.staff-container {
+  margin: 0 auto;
+  max-width: 1200px; 
+}
+
+@media screen and (max-width: 1260px) {
+  .staff-container {
+    margin: 0 30px;
+  }
+}
+
+.staff-member-right table td {
+  text-align: left;
+  font-size: 16px;
+}
+
+.staff-member-right table td.prefix {
+  width: 30%;
+}
+
+.staff-member-right table td.value {
+  font-weight: bold;
+}
+
+/* add theme shadowed box to each staff list time */
+.staff-list .blog-info.story-hbtitle {
+  margin-bottom: 15px;
+}
+
+.staff-list .staff-member {
+  margin-bottom: 0px;
+}
+
+
+/* staff grid */ 
+
+.staff-grid .staff-member {
+  text-align: center;
+}
+
+.staff-grid .staff-member .staff-member-name a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold !important;
+}
+
+.staff-grid .staff-member .staff-member-name a:hover {
+  text-decoration: underline;
+  color: #009600 !important;
+}
+
+.staff-grid .staff-member .staff-member-title {
+  font-size: 14px;
+}
+
+.staff-grid .staff-member h3 {
+  color: #000;
+}
+
+/* Documents Plugin */
+
+.mdocs {
+  margin-bottom: 6rem;
+}
+
+#mdocs-list-table {
+  overflow: inherit;
+}
+
+td.mdocs-title {
+  text-align: left;
+  font-size: 14px;
+}
+
+td.mdocs-desc p, .mdocs-desc p, .mdocs-desc {
+  font-size: 14px !important;
+  color: #555 !important;
+  line-height: 20px !important;
+  margin: 0!important;
+  padding: 0 5px!important;
+  overflow: auto;
+}
+
+.mdocs-container table {
+  font-size: 14px !important;
+  color: #555;
+}
+
+.mdocs-container table td {
+  text-align: left;
+}
+
+.mdocs-tooltip {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.mdocs-current-cat {
+  font-weight: bold;
+}
+
+.mdocs-thumbnail {
+  width: 40%;
+}
+
+.folder-section {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.mdocs-container .folder-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.mdoc-navbar-container .navbar-header {
+  float: none;
+}
+
+.mdoc-navbar-container .nav li a {
+  font-size: 16px;
+}
+#mdocs-navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.mdocs-navbar-default .navbar-nav>.active>a, .mdocs-navbar-default .navbar-nav>.active>a:focus, .mdocs-navbar-default .navbar-nav>.active>a:hover {
+  font-weight: bold;
+  background-color: #f8f8f8;
+  text-decoration: underline;
+  color: #009600;
+}
+
+.back-button {
+  padding: 15px 0;
+  display: block;
+}
+
+.copyright-right {
+  margin-top: -50px;
+}
+
+.single-footer.widget_custom_html {
+  overflow: inherit;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  display: none;
+}
+
+.menu-item-object-custom.menu-item-149 a {
+  border-radius: 30px;
+  background-color: #009600;
+  padding: 10px 20px;
+  color: #555555;
+}
+
+.menu-item-object-custom.menu-item-149 a:hover {
+  background-color: #009600;
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 992px) {
+  .copyright-right {
+    margin-top: 0px;
+  }
+}
+
+.copyright-right {
+  font-size: 10px;
+}
+
+/* HOME STYLES */
+
+.home .button.theme-bg.animated {
+  background-color: #009600;
+  color: #ffffff;
+}
+
+/* MENU STYLES */
+.menu-item-has-children:hover::before {
+  color: #009600 !important;
+}
+
+.current_page_item {
+  color: #009600 !important;
+}
+
+.header-transparent .main-menu > nav > ul > li:hover > a, .header-transparent .main-menu > nav > ul li.current-menu-item > a, .header-transparent .main-menu nav ul li.current-menu-item.menu-item-has-children::before, .header-transparent .main-menu nav ul li.menu-item-has-children:hover::before, .header-transparent .main-menu nav ul ul li.menu-item-has-children:hover::before {
+  color: #009600;
+}
+
+.main-menu .sub-menu {
+  border-top: 1px solid #009600;
+}
+
+.main-menu .sub-menu li a:hover {
+  color: #009600;
+}
+
+.current-page-ancestor > a, .current-menu-ancestor > a, .current-menu-parent > a, .current-page-parent > a, .current_page_parent > a, .current_page_ancestor > a, .current-menu-parent::before {
+  color: #009600 !important;
+}
+
+.sticky .menu-item-has-children:hover::before {
+  color: #009600 !important;
+}
+
+.sticky .current_page_item {
+  color: #009600 !important;
+}
+
+.header-transparent .main-menu > nav > ul > li:hover > a, .header-transparent .main-menu > nav > ul li.current-menu-item > a, .header-transparent .main-menu nav ul li.current-menu-item.menu-item-has-children::before, .header-transparent .main-menu nav ul li.menu-item-has-children:hover::before, .header-transparent .main-menu nav ul ul li.menu-item-has-children:hover::before {
+  color: #009600 !important;
+}
+
+.sticky .main-menu .sub-menu {
+  border-top: 1px solid #009600;
+}
+
+.stikcy .main-menu .sub-menu li a:hover {
+  color: #009600;
+}
+
+.current-page-ancestor > a, .current-menu-ancestor > a, .current-menu-parent > a, .current-page-parent > a, .current_page_parent > a, .current_page_ancestor > a, .current-menu-parent::before {
+  color: #009600 !important;
+}
+
+.menu-item-object-custom.menu-item-149, .menu-item-object-custom.menu-item-149 a {
+  color: #fff !important;
+}
+
+.menu-item-object-custom.menu-item-149:hover, .menu-item-object-custom.menu-item-149 a:hover {
+  color: #fff !important;
+}
+
+
+
+
+/* MOBILE MENU STYLES */
+
+.mean-nav {
+  background: #ffffff !important;
+  margin-bottom: 2rem !important;
+  margin-top: 0px !important;
+}
+
+.mean-bar {
+  background: none !important;
+  float: none !important;
+}
+
+a.meanmenu-reveal {
+  color: #009600;
+}
+
+a.meanmenu-reveal:hover, a.meanmenu-reveal:focus {
+  color: #009600a1;
+}
+
+.mean-nav #menu-main-menu .menu-item a:hover{
+  color: #009600;
+}
+
+.mean-nav #menu-main-menu .menu-item-object-custom a:hover{
+  background-color: #ffffff;
+  color: #009600 !important;
+}
+
+.mean-nav #menu-main-menu .menu-item-object-custom a {
+  background-color: #ffffff;;
+  border-radius: 0px;
+  padding: 1em 5%;
+}
+
+.mean-nav > ul > li.current_page_item > a {
+  color: #009600;
+}
+
+.mean-bar .mean-nav a.mean-expand:hover {
+  color: #009600 !important;
+}
+
+.mean-nav ul li li.current_page_item > a, .mean-nav ul li li > a:hover, .mean-nav .sub-menu li > a:hover {
+  color: #009600;
+}
+
+.container {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 760px) {
+  .container {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+.header-transparent a.meanmenu-reveal {
+  top: -75px;
+}
+
+
+/* FAQ STYLES */
+
+.ufaq-faq-div {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 3rem 0;
+  padding: 1.5rem;
+}
+
+.ufaq-faq-title-text {
+  color: #009600;
+}
+
+.ufaq-faq-title-text:hover {
+  color: #009600b9;
+}
+
+.ewd-ufaq-post-margin-symbol {
+  color: #009600;
+}
+
+/* HIDE SEARCH */
+.search-menu:hover {
+  color: #009600;
+}
+
+.widget_searchform_content > form button.submit {
+  background-color: #009600;
+  border: 1px solid #009600;
+}
+
+.search-bar-button i:hover, .search-bar-button i:focus {
+  color: #009600;
+}
+
+.widget_searchform_content > form input:focus {
+  border: 1px solid #009600;
+}
+
+/* Theme Overrides
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 34px;
+  position: relative;
+}
+
+h3::before {
+  background-color: #d99c4d;
+  bottom: 13px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 70px;
+}
+
+*/
+
+.center {
+  text-align: center;
+}
+
+.center .button {
+  text-decoration: none;
+}
+
+.center .button:hover {
+  text-decoration: underline;
+}

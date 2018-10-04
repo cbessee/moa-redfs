@@ -1,0 +1,92 @@
+
+---Downloaded files---
+The import files for: Standard Demo were successfully downloaded!
+Initial max execution time = 0
+Files info:
+Site URL = http://54.201.28.233
+Data file = /var/www/html/wp-content/themes/vorosa/inc/demo-importer/default/vorosa.xml
+Widget file = /var/www/html/wp-content/themes/vorosa/inc/demo-importer/default/vorosa-wid.wie
+Customizer file = /var/www/html/wp-content/themes/vorosa/inc/demo-importer/default/vorosa-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Ritht Sidebar : 
+
+Search - Search - Imported
+Recent Posts - Recent Posts - Imported
+Recent Comments - Recent Comments - Imported
+Archives - Archives - Imported
+Categories - Categories - Imported
+
+Left Sidebar : 
+
+Search - Search - Imported
+Vorosa: Recent Post - Recent Posts - Imported
+Recent Comments - Recent Comments - Imported
+Archives - Archives - Imported
+Categories - Categories - Imported
+
+Woocommerce : 
+
+Product Search - Search - Imported
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by - Imported
+Product Categories - Product categories - Imported
+Filter Products by Rating - Average rating - Imported
+Products by Rating - Top rated products - Imported
+Recent Viewed Products - Recently Viewed - Imported
+
+Footer 1 : 
+
+Vorosa: Author Informations - No Title - Imported
+
+Footer 2 : 
+
+Navigation Menu - IMPORTANT INFO - Imported
+
+Footer 3 : 
+
+Navigation Menu - IMPORTANT LINKS - Imported
+
+Footer 4 : 
+
+null-instagram-feed - Instagram - Site does not support widget
+
+Give Single Form Sidebar : 
+
+Search - Search - Imported
+Categories - Categories - Imported
+Tag Cloud - Tag clouds - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
